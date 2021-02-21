@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.emoji {
+  font-size: 7rem;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+}
+
+.emoji h1 {
+  text-align: center;
+  font-size: 14vw;
+  font-family: 'La Belle Aurore',sans-serif;
+}
+
+ .closed {
+   display: none;
+ }
+
+ .open {
+   display: none;
+ }
+
+ .active {
+   display: block;
+ }
